@@ -9,5 +9,6 @@ set -Ux FZF_DEFAULT_OPTS "--color=spinner:#F8BD96,hl:#F28FAD --color=fg:#D9E0EE,
 set -Ux FZF_TMUX_OPTS "-p"
 set -x LANG en_US.UTF-8
 set -x LC_ALL en_US.UTF-8
+set -gx GPG_TTY (tty)
 
 source /opt/homebrew/opt/asdf/libexec/asdf.fish
